@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDC 早稲田ダーツサークル</title>
+  <meta name="theme-color" content="#f5efe6">
+  <style>
+    :root {
+      --bg: #f5efe6;
+      --card: #fffaf3;
+      --text: #2f241d;
+      --sub: #7b6d61;
+      --line: #06c755;
+      --border: #e8dccf;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+      background: linear-gradient(180deg, #f5efe6 0%, #efe2d1 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 16px;
+    }
+    .card {
+      width: 100%;
+      max-width: 560px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      box-shadow: 0 18px 42px rgba(0,0,0,.08);
+      padding: 34px 22px 24px;
+      text-align: center;
+    }
+    .small {
+      color: var(--sub);
+      letter-spacing: .1em;
+      font-size: .82rem;
+      font-weight: 700;
+    }
+    h1 {
+      margin: 10px 0 2px;
+      font-size: clamp(2.6rem, 10vw, 4.5rem);
+      line-height: 1;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--sub);
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+    .buttons {
+      margin-top: 28px;
+      display: grid;
+      gap: 12px;
+    }
+    .btn {
+      display: block;
+      text-decoration: none;
+      border-radius: 18px;
+      padding: 16px 18px;
+      font-weight: 800;
+      font-size: 1.04rem;
+      transition: transform .15s ease, opacity .15s ease;
+      border: 1px solid var(--border);
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-line {
+      background: var(--line);
+      color: white;
+      border-color: var(--line);
+    }
+    .btn-insta {
+      background: white;
+      color: var(--text);
+    }
+    .note {
+      margin-top: 18px;
+      font-size: .84rem;
+      color: var(--sub);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="small">WASEDA DARTS CIRCLE</div>
+    <h1>WDC</h1>
+    <p class="subtitle">早稲田ダーツサークル</p>
+
+    <div class="buttons">
+      <a class="btn btn-line" href="https://line.me/ti/g/Q-w4eqzXJw" target="_blank" rel="noopener">LINE新歓グループに参加する</a>
+      <a class="btn btn-insta" href="https://www.instagram.com/wdc.2026_?stkn=bjVtdmZscmM5ampi&utm_source=qr" target="_blank" rel="noopener">Instagramを見る</a>
+    </div>
+
+    <p class="note">WDC 早稲田ダーツサークル</p>
+  </main>
+</body>
+</html>
